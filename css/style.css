@@ -322,7 +322,7 @@ body#map {
 }
 
 #map_wrapper {
-  width: 750px;
+  width: 500px;
   position: sticky;
   margin-left: auto;
   margin-right: auto;
