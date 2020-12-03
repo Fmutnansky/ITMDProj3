@@ -330,6 +330,14 @@ body#map {
   text-align: center;
 }
 
+#map_wrapper {
+  width: 750px;
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
 #maptext {
   width: 100%;
   height: 250px;
