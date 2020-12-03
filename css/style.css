@@ -321,6 +321,14 @@ body#map {
   text-align: center;
 }
 
+#map_wrapper {
+  width: 750px;
+  position: sticky;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
 #maptitle {
   width: 100%;
   height: 80px;
@@ -328,14 +336,6 @@ body#map {
   border-radius: 6px;
   color: #66a3ff; 
   text-align: center;
-}
-
-#map_wrapper {
-  width: 750px;
-  position: sticky;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
 }
 
 #maptext {
