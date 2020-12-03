@@ -320,3 +320,21 @@ body#map {
   font-size: 32px;
   text-align: center;
 }
+
+#maptitle {
+  width: 100%;
+  height: 80px;
+  background-color: #000066;
+  border-radius: 6px;
+  color: #66a3ff; 
+  text-align: center;
+}
+
+#maptext {
+  width: 100%;
+  height: 250px;
+  background-color: #000066;
+  border-radius: 6px;
+  color: #66a3ff; 
+  text-align: center;
+}
