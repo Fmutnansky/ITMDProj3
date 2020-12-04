@@ -6,9 +6,9 @@ function initMap() {
     lat: 41.7167,
     lng: -87.7063
   }
-  maps = new google.maps.Map(document.getElementById('map'), {
+  map = new google.maps.Map(document.getElementById('map'), {
     center: myCoordinates,
-    zoom: 15
+    zoom: 13
   });
   var evergreenMarker = new google.maps.Marker({
     position: myCoordinates,
