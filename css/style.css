@@ -346,3 +346,10 @@ body#map {
   color: #66a3ff; 
   text-align: center;
 }
+
+#map {
+  height: 400px;
+  width: 650px;
+  margin: auto;
+  display: block;
+}
