@@ -1,33 +1,39 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>ITMD-361 Internet Technologies and Web Design</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/slidescript.js"></script>
+    <script src="js/script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap">
   </head>
-  <body id="map">
-  <nav id="navigation">
-    <ul>
-      <li><a href = "https://fmutnansky.github.io/ITMDProj3/">Resume</a></li>
-      <li><a href = "https://fmutnansky.github.io/ITMDProj3/weeklyschedule.html">Weekly Schedule</a></li>
-      <li><a href = "https://fmutnansky.github.io/ITMDProj3/steamlibrary.html">Steam Library</a></li>
-	  <li><a href = "https://fmutnansky.github.io/ITMDProj3/map.html">Map</a></li>
-    </ul>
-  </nav>
+  <body id="mappage">
+    <nav id="navigation">
+      <ul>
+        <li><a href = "https://fmutnansky.github.io/ITMDProj3/">Resume</a></li>
+        <li><a href = "https://fmutnansky.github.io/ITMDProj3/weeklyschedule.html">Weekly Schedule</a></li>
+        <li><a href = "https://fmutnansky.github.io/ITMDProj3/steamlibrary.html">Steam Library</a></li>
+        <li><a href = "https://fmutnansky.github.io/ITMDProj3/map.html">Map</a></li>
+      </ul>
+    </nav>
   
-  <div id="map_wrapper">
-    <div id="maptitle">
-      <h1>Evergreen Park</h1>
+    <div id="map_wrapper">
+      <div id="maptitle">
+        <h1>Evergreen Park</h1>
+      </div>
+      <div id="maptext">
+        <p>This map shows where my small little Suburb lives.</p>
+	  <div id="map"></div>
+        <p>This shows the places I was educated from Pre-School - High School, including CCD!</p>
+        <p class="aligncenter">
+          <img id="slide" src="media" width="750" height="500" alt="slideshow" />
+          <!--<img align="center" id="ss" name="slide" width="600" height="450" /> -->
+        </p>
+      </div>
     </div>
-    <div id="maptext">
-      <p>This map shows where my small little Suburb lives.</p>
-      <p>This shows the places I was educated from Pre-School - High School including CCD</p>
-      <p class="aligncenter">
-        <img id="slide" src="media" width="750" height="500" alt="slideshow" />
-        <!--<img align="center" id="ss" name="slide" width="600" height="450" /> -->
-      </p>
-    </div>
-  </div>
   </body>
 </html>
