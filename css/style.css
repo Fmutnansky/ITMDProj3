@@ -353,3 +353,12 @@ body#map {
   margin: auto;
   display: block;
 }
+
+#maptext2 {
+  width: 100%;
+  height: 250px;
+  background-color: #000066;
+  border-radius: 6px;
+  color: #66a3ff; 
+  text-align: center;
+}
